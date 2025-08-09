@@ -36,7 +36,7 @@
       </li>
 
       <li class="nav-item dropdown {{Request::is('admin/transaksi*') ? 'active' : ''}}">
-        <a class="nav-link" href="javscript:void(0)" id="transaksiDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+        <a class="nav-link" href="javascript:void(0)" id="transaksiDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
             <i class="material-icons">payments</i>
             <p>Transaksi</p>
         </a>
