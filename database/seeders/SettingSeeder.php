@@ -1,5 +1,7 @@
 <?php
 
+namespace Database\Seeders;
+
 use App\Rekening;
 use App\Setting;
 use Illuminate\Database\Seeder;

@@ -1,7 +1,7 @@
 <?php
 
-use App\Kelas;
-use App\Video;
+namespace Database\Seeders;
+
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -15,7 +15,7 @@ class DatabaseSeeder extends Seeder
     {
         $this->call([
             UserSeeder::class,
-            SettingSeeder::class
+            SettingSeeder::class,
         ]);
     }
 }
