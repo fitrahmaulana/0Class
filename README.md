@@ -7,7 +7,7 @@ Jika menggunakan vscode
 $ code .
 ```
 
-**Rename .env-example menjadi .env**
+**Rename .env.example menjadi .env**
 ```sh
 $ php artisan key:generate
 ```
